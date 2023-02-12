@@ -11,7 +11,7 @@ const app = express();
 
 //Middleware
 app.use(cors({
-    origin: ["http://localhost:3000", "http://task-app-mern-fahim.onrender.com/"],}
+    origin: ["http://localhost:3000", "https://task-app-mern-fahim.onrender.com/"],}
 ));
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
